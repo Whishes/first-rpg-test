@@ -1,0 +1,1 @@
+atleast for now - create a new *assets* folder alongside *scripts* etc and copy paste all files from the Ninja Adventure asset pack into it.
