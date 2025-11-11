@@ -15,6 +15,7 @@ func _process(delta):
 	if input_dir == Vector2.ZERO: direction = Vector2.ZERO
 	
 	if (Input.is_action_pressed("ui_left")):
+		# this bit makes it only left, right, up, down directions
 		direction = Vector2(input_dir.x, 0).normalized()
 		animated_sprite.play("idle_left")
 		
